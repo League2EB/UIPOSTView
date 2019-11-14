@@ -13,8 +13,7 @@
 * [需求](#requirements)
 
 ## Preview
-![](https://i.imgur.com/LzKtwn9.png)
-
+<img src="https://i.imgur.com/LzKtwn9.png" alt="drawing" width="375" height="812"/>
 ## Example
 #### 導入頭文件
 ```swift
