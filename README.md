@@ -12,6 +12,9 @@
 * [安裝](#installation)
 * [需求](#requirements)
 
+## Preview
+![](https://i.imgur.com/LzKtwn9.png)
+
 ## Example
 #### 導入頭文件
 ```swift
