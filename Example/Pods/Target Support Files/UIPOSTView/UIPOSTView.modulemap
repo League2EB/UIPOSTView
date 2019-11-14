@@ -1,0 +1,6 @@
+framework module UIPOSTView {
+  umbrella header "UIPOSTView-umbrella.h"
+
+  export *
+  module * { export * }
+}

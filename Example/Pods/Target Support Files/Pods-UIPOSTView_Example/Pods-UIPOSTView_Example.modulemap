@@ -1,0 +1,6 @@
+framework module Pods_UIPOSTView_Example {
+  umbrella header "Pods-UIPOSTView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
