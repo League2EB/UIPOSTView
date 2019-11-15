@@ -14,7 +14,7 @@
 
 ## Preview
 <img src="https://i.imgur.com/LzKtwn9.png" alt="drawing" width="375" height="812"/>
-
+****
 ## Example
 #### 導入頭文件
 ```swift
@@ -30,7 +30,11 @@ postViewController.delegate = self
 let style = UIPOSTStyle()
 style.maxInputCount = 100
 postViewController.postViewStyle = style
+
+//present
+self.present(postViewController, animated: true, completion: nil)
 ```
+
 ## Style Config Parameter
 ```swift
 /// 背景顏色
@@ -80,7 +84,7 @@ pod 'UIPOSTView'
 
 ## Author
 
-League2EB, League2EB@League2EB.com
+League2EB
 
 ## License
 
