@@ -35,8 +35,8 @@ public class UIPOSTStyle {
         self.titleLabelColor = titleLabelColor
         self.contentTextColor = contentTextColor
         self.topBarColor = topBarColor
-        self.cancelImage = UIImage(named: "icon_cancel", in: UIPOSTViewUtil.featchBundle(), compatibleWith: nil)!
-        self.sendImage = UIImage(named: "icon_send", in: UIPOSTViewUtil.featchBundle(), compatibleWith: nil)!
+        self.cancelImage = UIImage(named: "icon_cancel", in: UIPOSTViewUtil.fetchBundle(), compatibleWith: nil)!
+        self.sendImage = UIImage(named: "icon_send", in: UIPOSTViewUtil.fetchBundle(), compatibleWith: nil)!
         self.limitLabelColor = limitLabelColor
         self.maxInputCount = maxInputCount
         self.titleText = titleText
@@ -53,7 +53,7 @@ public class UIPOSTStyle {
             scal = 3
         }
         let path = name + "@\(Int(scal))x"
-        let img = UIImage(named: path, in: UIPOSTViewUtil.featchBundle(), compatibleWith: nil)
+        let img = UIImage(named: path, in: UIPOSTViewUtil.fetchBundle(), compatibleWith: nil)
         return img
     }
 }

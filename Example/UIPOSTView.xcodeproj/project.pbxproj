@@ -209,12 +209,9 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-UIPOSTView_Example/Pods-UIPOSTView_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/UIPOSTView/UIPOSTView.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIPOSTView.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

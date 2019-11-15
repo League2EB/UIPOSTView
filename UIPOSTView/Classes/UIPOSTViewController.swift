@@ -30,7 +30,7 @@ public class UIPOSTViewController: UIViewController {
     }
 
     public override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
-        let bundle = UIPOSTViewUtil.featchBundle()
+        let bundle = UIPOSTViewUtil.fetchBundle()
         super.init(nibName: "UIPOSTViewController", bundle: bundle)
     }
 

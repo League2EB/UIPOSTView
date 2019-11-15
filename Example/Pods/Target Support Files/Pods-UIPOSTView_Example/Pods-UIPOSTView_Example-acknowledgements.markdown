@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## UIPOSTView
 
-Copyright (c) 2019 League2EB <poloa51404@gmail.com>
+Copyright (c) 2019 League2EB <League2EB@League2EB.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

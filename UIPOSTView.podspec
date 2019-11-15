@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UIPOSTView'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = '輕量的提交留言、回覆視圖控制器'
 
   s.description      = <<-DESC
@@ -21,7 +21,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'UIPOSTView/Classes/**/*'
   
   s.resource_bundles = {
-   'UIPOSTView' => ['UIPOSTView/Assets/*.{png,xib,xcassets}']
+   'UIPOSTViewResource' => ['UIPOSTView/Assets/*.{png,xib,xcassets}']
   }
 
 end

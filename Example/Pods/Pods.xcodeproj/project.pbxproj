@@ -8,34 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		3809F870307B37A87930CC3DD88B58F6 /* Pods-UIPOSTView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BAC10168FB6556F3A4709719A527A0 /* Pods-UIPOSTView_Example-dummy.m */; };
-		41ADEC12A3EFF00DC77B3603D86D5F6D /* UIPOSTBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5530542B7CE2A504C21AF6E00BE1282 /* UIPOSTBackgroundView.swift */; };
-		46BE33AB6D97622E5C6D29D5D34BA344 /* UIPOSTView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A5C4B41EAC47024AAFEAF6AD4114133 /* UIPOSTView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4B3A052803748149AFA749E6E62BEFBD /* UIPOSTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C4641FE32183831DD0A39E87F1C6B6 /* UIPOSTViewController.swift */; };
-		4C89F7CD6616D19AB9EE2B4A38468317 /* UIPOSTViewUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD162D5226834868A09D33C545DE4E3 /* UIPOSTViewUtil.swift */; };
 		56A7C2B1AE14D5ECFAF3A0D7E26DFFBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		65DA45A7D16873D643936E3B93659652 /* UIPOSTView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7DFB3A9F1838086320DB6298634A88 /* UIPOSTView-dummy.m */; };
-		74A38F12CD85E0720414E055B2DACE72 /* UIPOSTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B7D3CD3438BA3B5250FB1407EB7D369 /* UIPOSTViewController.xib */; };
-		85923B45D0499772B07CE468C2062FBD /* UIPOSTViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737CE050A4857B18FC0828667E475578 /* UIPOSTViews.swift */; };
 		9CD0D0EF97D0DB1DF4DAF2E98ACADE32 /* Pods-UIPOSTView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EADEE3D1943873001C96AE495AC9DEF /* Pods-UIPOSTView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ABE08191F7E272F077189B9569DEFB02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		B1E73D3813DEBC19662BE3AED7D8582C /* media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9FF4C7B06385C26A88C1DBE81CD1114 /* media.xcassets */; };
-		C8E3752D89C175F08448C14ADEC384B9 /* UIPOSTStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA596555B40883032C7A63035AF334AF /* UIPOSTStyle.swift */; };
-		F9F746366E75BADDA51957E93B5C2442 /* UIPOSTView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4C8FFD377D740DC7F7402EE34449B8E4 /* UIPOSTView.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2EBE7F7DA1F56C54FF918D184699985D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 15B95F27E9436F4F056F169B1C12D052;
-			remoteInfo = "UIPOSTView-UIPOSTView";
-		};
 		DEA94CCC7B73B94CC1AA9612E845143C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			containerPortal = 7F5F015B4AF7830919A0019DF54AFB64 /* UIPOSTView.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 944700976E4C43652C3AE6058D2FCED0;
+			remoteGlobalIDString = F05F00374F076606BF7C240613E037BE;
 			remoteInfo = UIPOSTView;
 		};
 /* End PBXContainerItemProxy section */
@@ -44,34 +26,16 @@
 		0D6F65469C032E5BB21F8ED87DDA8377 /* Pods_UIPOSTView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UIPOSTView_Example.framework; path = "Pods-UIPOSTView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E3B93C9EDE12B78F2116A02D77E5989 /* Pods-UIPOSTView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIPOSTView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3ADB7A8FC10BC1D4CD7E1A6A15B73C05 /* UIPOSTView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UIPOSTView-Info.plist"; sourceTree = "<group>"; };
-		3B7D3CD3438BA3B5250FB1407EB7D369 /* UIPOSTViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = UIPOSTViewController.xib; path = UIPOSTView/Assets/UIPOSTViewController.xib; sourceTree = "<group>"; };
 		476989EC2B31D04CED41B4C5A5558368 /* Pods-UIPOSTView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIPOSTView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4C8FFD377D740DC7F7402EE34449B8E4 /* UIPOSTView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = UIPOSTView.bundle; path = "UIPOSTView-UIPOSTView.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4CD162D5226834868A09D33C545DE4E3 /* UIPOSTViewUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIPOSTViewUtil.swift; path = UIPOSTView/Classes/UIPOSTViewUtil.swift; sourceTree = "<group>"; };
 		4EADEE3D1943873001C96AE495AC9DEF /* Pods-UIPOSTView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIPOSTView_Example-umbrella.h"; sourceTree = "<group>"; };
-		4F9C67D420DD6146DAEEE536121C23EC /* UIPOSTView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIPOSTView.xcconfig; sourceTree = "<group>"; };
-		5BD7F1E4F12F3ECF1C949C3E9B98C57E /* UIPOSTView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = UIPOSTView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		737CE050A4857B18FC0828667E475578 /* UIPOSTViews.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIPOSTViews.swift; path = UIPOSTView/Classes/UIPOSTViews.swift; sourceTree = "<group>"; };
+		7F5F015B4AF7830919A0019DF54AFB64 /* UIPOSTView */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UIPOSTView; path = UIPOSTView.xcodeproj; sourceTree = "<group>"; };
 		83BAC10168FB6556F3A4709719A527A0 /* Pods-UIPOSTView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UIPOSTView_Example-dummy.m"; sourceTree = "<group>"; };
 		86CCA39CC89C05973104497B5E10B284 /* Pods-UIPOSTView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIPOSTView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8A5C4B41EAC47024AAFEAF6AD4114133 /* UIPOSTView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIPOSTView-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A24F596F31FAD7726638AEB31333261C /* Pods-UIPOSTView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UIPOSTView_Example.modulemap"; sourceTree = "<group>"; };
-		A9FF4C7B06385C26A88C1DBE81CD1114 /* media.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = media.xcassets; path = UIPOSTView/Assets/media.xcassets; sourceTree = "<group>"; };
 		AACE9679A21C3B4905BC2BABC5526404 /* Pods-UIPOSTView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIPOSTView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		AD7DFB3A9F1838086320DB6298634A88 /* UIPOSTView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIPOSTView-dummy.m"; sourceTree = "<group>"; };
 		B2E576EAC69E9931EF2DB4F5A8D859BB /* Pods-UIPOSTView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIPOSTView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B87CCDCDF31A917DFE6CD3368ED3E5EF /* Pods-UIPOSTView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIPOSTView_Example-Info.plist"; sourceTree = "<group>"; };
-		B9A33AC381F2491F1604CFCBC94974C0 /* UIPOSTView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UIPOSTView.framework; path = UIPOSTView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF92C606670DEBBCA1127DA32BCD02D4 /* UIPOSTView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIPOSTView-prefix.pch"; sourceTree = "<group>"; };
-		C15F3769D1D943036B28232B8E1BD632 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		C411CBF8291F0B618597BB5702BC51A3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		C9C4641FE32183831DD0A39E87F1C6B6 /* UIPOSTViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIPOSTViewController.swift; path = UIPOSTView/Classes/UIPOSTViewController.swift; sourceTree = "<group>"; };
-		DDEE7DD0A7F6B9B8EA7A449ED6E564FF /* UIPOSTView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UIPOSTView.modulemap; sourceTree = "<group>"; };
-		E5530542B7CE2A504C21AF6E00BE1282 /* UIPOSTBackgroundView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIPOSTBackgroundView.swift; path = UIPOSTView/Classes/UIPOSTBackgroundView.swift; sourceTree = "<group>"; };
-		F290E42F831D007705C5E868447A77EB /* ResourceBundle-UIPOSTView-UIPOSTView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-UIPOSTView-UIPOSTView-Info.plist"; sourceTree = "<group>"; };
-		FA596555B40883032C7A63035AF334AF /* UIPOSTStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIPOSTStyle.swift; path = UIPOSTView/Classes/UIPOSTStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,38 +47,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		411B21709CCD368EA6B26EE3A4EE93BA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		94F6A18CE76DC768E9221C43AE1BB3C7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ABE08191F7E272F077189B9569DEFB02 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0159C36C86A7C1F4BFEEB3D499282D56 /* UIPOSTView */ = {
+		279BD88C7AEC0F6E80375F0D0920BAE8 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E5530542B7CE2A504C21AF6E00BE1282 /* UIPOSTBackgroundView.swift */,
-				FA596555B40883032C7A63035AF334AF /* UIPOSTStyle.swift */,
-				C9C4641FE32183831DD0A39E87F1C6B6 /* UIPOSTViewController.swift */,
-				737CE050A4857B18FC0828667E475578 /* UIPOSTViews.swift */,
-				4CD162D5226834868A09D33C545DE4E3 /* UIPOSTViewUtil.swift */,
-				354F18CDFC85725B86618F4E4409BCE2 /* Pod */,
-				5EC8BBFF3C5F5454DE03B897A15247C2 /* Resources */,
-				D649592DD74EDEF004FED0638FCE96A1 /* Support Files */,
+				7F5F015B4AF7830919A0019DF54AFB64 /* UIPOSTView */,
 			);
-			name = UIPOSTView;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		2BE8D48E90053721AF38DD1625259D22 /* Pods-UIPOSTView_Example */ = {
@@ -134,39 +75,12 @@
 			path = "Target Support Files/Pods-UIPOSTView_Example";
 			sourceTree = "<group>";
 		};
-		2EE10F00C15DE9B2F81975C1372C6CEC /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0159C36C86A7C1F4BFEEB3D499282D56 /* UIPOSTView */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		354F18CDFC85725B86618F4E4409BCE2 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				C15F3769D1D943036B28232B8E1BD632 /* LICENSE */,
-				C411CBF8291F0B618597BB5702BC51A3 /* README.md */,
-				5BD7F1E4F12F3ECF1C949C3E9B98C57E /* UIPOSTView.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		421CF213C66BD70E3E3E4E122E96FE3A /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
 				2BE8D48E90053721AF38DD1625259D22 /* Pods-UIPOSTView_Example */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		5EC8BBFF3C5F5454DE03B897A15247C2 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				A9FF4C7B06385C26A88C1DBE81CD1114 /* media.xcassets */,
-				3B7D3CD3438BA3B5250FB1407EB7D369 /* UIPOSTViewController.xib */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -181,21 +95,11 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				2EE10F00C15DE9B2F81975C1372C6CEC /* Development Pods */,
+				279BD88C7AEC0F6E80375F0D0920BAE8 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				D076E673E7A248247A91C81535BA5425 /* Products */,
+				E3648CDA6A8E3EBC27790A0554C4663E /* Products */,
 				421CF213C66BD70E3E3E4E122E96FE3A /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D076E673E7A248247A91C81535BA5425 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0D6F65469C032E5BB21F8ED87DDA8377 /* Pods_UIPOSTView_Example.framework */,
-				4C8FFD377D740DC7F7402EE34449B8E4 /* UIPOSTView.bundle */,
-				B9A33AC381F2491F1604CFCBC94974C0 /* UIPOSTView.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -206,32 +110,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D649592DD74EDEF004FED0638FCE96A1 /* Support Files */ = {
+		E3648CDA6A8E3EBC27790A0554C4663E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F290E42F831D007705C5E868447A77EB /* ResourceBundle-UIPOSTView-UIPOSTView-Info.plist */,
-				DDEE7DD0A7F6B9B8EA7A449ED6E564FF /* UIPOSTView.modulemap */,
-				4F9C67D420DD6146DAEEE536121C23EC /* UIPOSTView.xcconfig */,
-				AD7DFB3A9F1838086320DB6298634A88 /* UIPOSTView-dummy.m */,
-				3ADB7A8FC10BC1D4CD7E1A6A15B73C05 /* UIPOSTView-Info.plist */,
-				BF92C606670DEBBCA1127DA32BCD02D4 /* UIPOSTView-prefix.pch */,
-				8A5C4B41EAC47024AAFEAF6AD4114133 /* UIPOSTView-umbrella.h */,
+				0D6F65469C032E5BB21F8ED87DDA8377 /* Pods_UIPOSTView_Example.framework */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/UIPOSTView";
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3621D85F4E53F2DD6788F1EDC04D9BFA /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				46BE33AB6D97622E5C6D29D5D34BA344 /* UIPOSTView-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9A4AE932B9A7DE479A5FFBEC0533559B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -243,42 +132,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		15B95F27E9436F4F056F169B1C12D052 /* UIPOSTView-UIPOSTView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7831814AB493C4ED181705D368BB6A6E /* Build configuration list for PBXNativeTarget "UIPOSTView-UIPOSTView" */;
-			buildPhases = (
-				A87757F3C6A06F503A5CC24520815B8C /* Sources */,
-				411B21709CCD368EA6B26EE3A4EE93BA /* Frameworks */,
-				0F3452C0F51B9A09BE0FBE12E5E2C6A1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "UIPOSTView-UIPOSTView";
-			productName = "UIPOSTView-UIPOSTView";
-			productReference = 4C8FFD377D740DC7F7402EE34449B8E4 /* UIPOSTView.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		944700976E4C43652C3AE6058D2FCED0 /* UIPOSTView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8E8269666FABF37BAB8BD16DEF1269C4 /* Build configuration list for PBXNativeTarget "UIPOSTView" */;
-			buildPhases = (
-				3621D85F4E53F2DD6788F1EDC04D9BFA /* Headers */,
-				FBAE829C5E4EFF82D44DDF98FA8809ED /* Sources */,
-				94F6A18CE76DC768E9221C43AE1BB3C7 /* Frameworks */,
-				566FE2C5F7753CD94D1F2CA3788343DE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EE4C42DE9F23F905754BA569E7CE61AA /* PBXTargetDependency */,
-			);
-			name = UIPOSTView;
-			productName = UIPOSTView;
-			productReference = B9A33AC381F2491F1604CFCBC94974C0 /* UIPOSTView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		D29F201DE8E6D4F1C8FE210D290864FD /* Pods-UIPOSTView_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8BF90309D659D5327E59D38D4364F57D /* Build configuration list for PBXNativeTarget "Pods-UIPOSTView_Example" */;
@@ -316,27 +169,21 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = D076E673E7A248247A91C81535BA5425 /* Products */;
+			productRefGroup = E3648CDA6A8E3EBC27790A0554C4663E /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProjectRef = 7F5F015B4AF7830919A0019DF54AFB64 /* UIPOSTView */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				D29F201DE8E6D4F1C8FE210D290864FD /* Pods-UIPOSTView_Example */,
-				944700976E4C43652C3AE6058D2FCED0 /* UIPOSTView */,
-				15B95F27E9436F4F056F169B1C12D052 /* UIPOSTView-UIPOSTView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0F3452C0F51B9A09BE0FBE12E5E2C6A1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B1E73D3813DEBC19662BE3AED7D8582C /* media.xcassets in Resources */,
-				74A38F12CD85E0720414E055B2DACE72 /* UIPOSTViewController.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3F0CC5015C0761EFA0DF8FED58940A7F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -344,42 +191,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		566FE2C5F7753CD94D1F2CA3788343DE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F9F746366E75BADDA51957E93B5C2442 /* UIPOSTView.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A87757F3C6A06F503A5CC24520815B8C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D9F90EAA050EE1B7ED6BFB96135C95F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3809F870307B37A87930CC3DD88B58F6 /* Pods-UIPOSTView_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FBAE829C5E4EFF82D44DDF98FA8809ED /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				41ADEC12A3EFF00DC77B3603D86D5F6D /* UIPOSTBackgroundView.swift in Sources */,
-				C8E3752D89C175F08448C14ADEC384B9 /* UIPOSTStyle.swift in Sources */,
-				65DA45A7D16873D643936E3B93659652 /* UIPOSTView-dummy.m in Sources */,
-				4B3A052803748149AFA749E6E62BEFBD /* UIPOSTViewController.swift in Sources */,
-				85923B45D0499772B07CE468C2062FBD /* UIPOSTViews.swift in Sources */,
-				4C89F7CD6616D19AB9EE2B4A38468317 /* UIPOSTViewUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,35 +208,11 @@
 		3AD9629438DE2E1CED215D6786BDEC93 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = UIPOSTView;
-			target = 944700976E4C43652C3AE6058D2FCED0 /* UIPOSTView */;
 			targetProxy = DEA94CCC7B73B94CC1AA9612E845143C /* PBXContainerItemProxy */;
-		};
-		EE4C42DE9F23F905754BA569E7CE61AA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "UIPOSTView-UIPOSTView";
-			target = 15B95F27E9436F4F056F169B1C12D052 /* UIPOSTView-UIPOSTView */;
-			targetProxy = 2EBE7F7DA1F56C54FF918D184699985D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		01C46691E12914610871BBEDA8D54251 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F9C67D420DD6146DAEEE536121C23EC /* UIPOSTView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/UIPOSTView";
-				IBSC_MODULE = UIPOSTView;
-				INFOPLIST_FILE = "Target Support Files/UIPOSTView/ResourceBundle-UIPOSTView-UIPOSTView-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PRODUCT_NAME = UIPOSTView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
 		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -481,55 +276,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
-		};
-		80B8D4A1BC50675181616484C40D3291 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F9C67D420DD6146DAEEE536121C23EC /* UIPOSTView.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/UIPOSTView/UIPOSTView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/UIPOSTView/UIPOSTView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/UIPOSTView/UIPOSTView.modulemap";
-				PRODUCT_MODULE_NAME = UIPOSTView;
-				PRODUCT_NAME = UIPOSTView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A050B25D25DCEDD58BB123E78CA2B917 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F9C67D420DD6146DAEEE536121C23EC /* UIPOSTView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/UIPOSTView";
-				IBSC_MODULE = UIPOSTView;
-				INFOPLIST_FILE = "Target Support Files/UIPOSTView/ResourceBundle-UIPOSTView-UIPOSTView-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PRODUCT_NAME = UIPOSTView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
 		};
 		A413DD4B33980A143ADE9D44046F0E6A /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -660,39 +406,6 @@
 			};
 			name = Debug;
 		};
-		E7964726162C36C3EE03763F8B263FDA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F9C67D420DD6146DAEEE536121C23EC /* UIPOSTView.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/UIPOSTView/UIPOSTView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/UIPOSTView/UIPOSTView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/UIPOSTView/UIPOSTView.modulemap";
-				PRODUCT_MODULE_NAME = UIPOSTView;
-				PRODUCT_NAME = UIPOSTView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -705,29 +418,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7831814AB493C4ED181705D368BB6A6E /* Build configuration list for PBXNativeTarget "UIPOSTView-UIPOSTView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				01C46691E12914610871BBEDA8D54251 /* Debug */,
-				A050B25D25DCEDD58BB123E78CA2B917 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		8BF90309D659D5327E59D38D4364F57D /* Build configuration list for PBXNativeTarget "Pods-UIPOSTView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C8E52043A35ACAFC725F99A98BB264BC /* Debug */,
 				A413DD4B33980A143ADE9D44046F0E6A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8E8269666FABF37BAB8BD16DEF1269C4 /* Build configuration list for PBXNativeTarget "UIPOSTView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				80B8D4A1BC50675181616484C40D3291 /* Debug */,
-				E7964726162C36C3EE03763F8B263FDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

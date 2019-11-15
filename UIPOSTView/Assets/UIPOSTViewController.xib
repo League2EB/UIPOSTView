@@ -22,7 +22,7 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ln2-Up-aTw">
                     <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                     <subviews>
-                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ytp-Ab-apf" userLabel="BackgroundView" customClass="UIPOSTBackgroundView" customModule="UIPOSTView" customModuleProvider="target">
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ytp-Ab-apf" userLabel="BackgroundView" customClass="UIPOSTBackgroundView" customModule="UIPOSTView">
                             <rect key="frame" x="10" y="44" width="394" height="230"/>
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GcH-fD-byi" userLabel="TopBarView">
@@ -132,7 +132,7 @@
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="131.8840579710145" y="115.84821428571428"/>
         </view>
-        <customObject id="Vr3-df-efa" customClass="UIPOSTViews" customModule="UIPOSTView" customModuleProvider="target">
+        <customObject id="Vr3-df-efa" customClass="UIPOSTViews" customModule="UIPOSTView">
             <connections>
                 <outlet property="postBackgroundView" destination="Ytp-Ab-apf" id="DPX-on-Rg3"/>
                 <outlet property="postCancelBtn" destination="TcF-hl-64J" id="37y-zc-kSP"/>
