@@ -1,6 +1,6 @@
 {
   "name": "UIPOSTView",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "summary": "輕量的提交留言、回覆視圖控制器",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/League2EB/UIPOSTView",
@@ -14,7 +14,7 @@
   },
   "source": {
     "git": "https://github.com/League2EB/UIPOSTView.git",
-    "tag": "1.0.1"
+    "tag": "1.0.2"
   },
   "social_media_url": "https://league2eb.github.io/",
   "swift_versions": "5.0",

@@ -32,6 +32,9 @@ public class UIPOSTViewController: UIViewController {
     public override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
         let bundle = UIPOSTViewUtil.fetchBundle()
         super.init(nibName: "UIPOSTViewController", bundle: bundle)
+        if atof(UIDevice.current.systemVersion) < 13.0 {
+            modalPresentationStyle = .overFullScreen
+        }
     }
 
     required init?(coder: NSCoder) {

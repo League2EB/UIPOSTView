@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UIPOSTView'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = '輕量的提交留言、回覆視圖控制器'
 
   s.description      = <<-DESC

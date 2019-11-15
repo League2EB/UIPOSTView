@@ -1,5 +1,5 @@
 PODS:
-  - UIPOSTView (1.0.1)
+  - UIPOSTView (1.0.2)
 
 DEPENDENCIES:
   - UIPOSTView (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  UIPOSTView: 21292f488e3b9816eb5c74315f31b9a422cc7197
+  UIPOSTView: 8eb51d7e28500bd64b14a4edeeb1c6adf094dadb
 
 PODFILE CHECKSUM: 01eb56aa09218ee8e618cf0a8b2ac59bc9b2b77e
 
